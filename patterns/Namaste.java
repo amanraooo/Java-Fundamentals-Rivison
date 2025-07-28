@@ -1,5 +1,10 @@
 public class Namaste {
     public static void main(String[] args) {
+                //           * 
+                //         *   *
+                //       *       * 
+                //     *           *
+                //   *               * 
          int n = 5;
         for(int r = 0 ; r<n ; r++){
             for(int sp = 0; sp< n-r ; sp++){

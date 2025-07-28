@@ -7,9 +7,9 @@ public class NumericHalfPyramid {
     // 1 2 3 4 5 
     
         int n = 5;
-        for(int row = 1 ; row<=n ; row++){
-            for(int num = 1 ; num <= row ; num++){
-                System.out.print(num+ " ");
+        for(int row = 0 ; row<n ; row++){
+            for(int num = 0 ; num < row+1 ; num++){
+                System.out.print(num+1+ " ");
             }
             System.out.println();
         }
