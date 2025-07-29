@@ -8,8 +8,8 @@ public class NumericHalfPyramid {
     
         int n = 5;
         for(int row = 0 ; row<n ; row++){
-            for(int num = 0 ; num < row+1 ; num++){
-                System.out.print(num+1+ " ");
+            for(int col = 0 ; col < row+1 ; col++){
+                System.out.print(col+1+ " ");
             }
             System.out.println();
         }
